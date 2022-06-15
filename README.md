@@ -1,6 +1,6 @@
-# Scoop scoop-bucket Bucket [![Tests](https://github.com/HCLonely/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/HCLonely/scoop-bucket/actions/workflows/ci.yml)
+# Scoop scoop-bucket Bucket
 
-`scoop bucket add hclonely 'https://github.com/HCLonely/scoop-bucket.git'`
+`scoop bucket add hclonely 'https://github.com/HCLonely/my-scoop-bucket.git'`
 
 | | |
 | --- | --- |

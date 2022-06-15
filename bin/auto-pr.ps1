@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "HCLonely/my-scoop-bucket:main"
+    [String]$upstream = "HCLonely/my-scoop-bucket:master"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Resolve-Path (scoop prefix scoop) }
