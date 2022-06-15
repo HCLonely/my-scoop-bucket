@@ -1,0 +1,22 @@
+{
+    "version": "2.7.1",
+    "description": "Steam++」是一个包含多种Steam工具功能的工具箱。",
+    "homepage": "https://github.com/SteamTools-Team/SteamTools",
+    "license": "GPL-3.0",
+    "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/2.7.1/Steam%2B%2B_win_x64_v2.7.1.7z",
+    "hash": "f9cf3496447aad834d52c13f381bc8d2cb827d2d167028deceb3c7703c6f8805",
+    "bin": "Steam++.exe",
+    "shortcuts": [
+        [
+            "Steam++.exe",
+            "Steam++"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/SteamTools-Team/SteamTools/releases",
+        "regex": "/releases/tag/(?<version>.+?)\""
+    },
+    "autoupdate": {
+        "url": "https://github.com/SteamTools-Team/SteamTools/releases/download/$version/Steam%2B%2B_win_x64_v$version.7z"
+    }
+}

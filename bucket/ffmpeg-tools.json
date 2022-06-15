@@ -1,0 +1,32 @@
+{
+    "version": "2020-11-22-git-0066bf4d1a",
+    "description": "ffmpeg-tools",
+    "homepage": "https://www.gyan.dev/ffmpeg/builds/",
+    "license": {
+        "identifier": "Unknown"
+    },
+    "depends": "7zip",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip",
+            "hash": "4afa1cb974ba0d10aebb93a1e10220aa8b52c40cc57dda5461a05b807a06ae1d"
+        }
+    },
+    "pre_install": [
+        "Move-Item $dir\\ffmpeg-tools-*\\* $dir",
+        "Remove-Item -R -Path $dir\\ffmpeg-tools-*"
+    ],
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "https://www.gyan.dev/ffmpeg/builds/",
+        "regex": "<span id=\"tools-version\">(?<version>[\\d\\w-]+)<\\/span>",
+        "replace": "${version}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip"
+            }
+        }
+    }
+}
