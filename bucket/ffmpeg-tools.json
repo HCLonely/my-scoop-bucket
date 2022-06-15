@@ -1,5 +1,5 @@
 {
-    "version": "2020-11-22-git-0066bf4d1a",
+    "version": "2022-01-01-git-d6b2357edd",
     "description": "ffmpeg-tools",
     "homepage": "https://www.gyan.dev/ffmpeg/builds/",
     "license": {
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip",
-            "hash": "4afa1cb974ba0d10aebb93a1e10220aa8b52c40cc57dda5461a05b807a06ae1d"
+            "hash": "1cd470e40dd66f135df15a01c37152ee79a066a4f958012493c430c61bdd8d52"
         }
     },
     "pre_install": [
