@@ -7,7 +7,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.5",
+            "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=6.1.5#/dl.7z",
             "hash": "d6f6eb038c0e60325587844867d6314edc619ea3d38d06aee3e111578185407c"
         }
     },
@@ -30,7 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version"
+                "url": "https://www.apipost.cn/dl.php?client=Win&arch=x64&version=$version#/dl.7z"
             }
         }
     }
