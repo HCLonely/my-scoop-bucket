@@ -19,10 +19,10 @@
         "}"
     ],
     "checkver": {
-        "url": "https://github.com/VShawn/PRemoteM/releases",
-        "regex": "/releases/tag/(?<version>.+?)\""
+        "url": "https://github.com/1Remote/PRemoteM/releases",
+        "regex": "\\/1Remote\\/PRemoteM\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\.(?<version>.+?)\\.x64\\.zip\""
     },
     "autoupdate": {
-        "url": "https://github.com/VShawn/PRemoteM/releases/download/$version/PRemoteM-$version.zip"
+        "url": "https://github.com/1Remote/PRemoteM/releases/download/$version/PRemoteM.$version.x64.zip"
     }
 }
