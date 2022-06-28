@@ -23,6 +23,6 @@
         "regex": "\\/1Remote\\/PRemoteM\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\.(?<version>.+?)\\.x64\\.zip\""
     },
     "autoupdate": {
-        "url": "https://github.com/1Remote/PRemoteM/releases/download/$tag/PRemoteM.$version.x64.zip"
+        "url": "https://github.com/1Remote/PRemoteM/releases/download/$matchTag/PRemoteM.$version.x64.zip"
     }
 }
