@@ -1,12 +1,12 @@
 {
-    "version": "4.8.0.3",
+    "version": "4.7.5.0",
     "description": "media server for personal streaming movies tv music photos in mobile app or browser for all devices android iOS windows phone appletv androidtv smarttv and dlna",
     "homepage": "https://github.com/MediaBrowser/Emby.Releases",
     "license": {
         "identifier": "Unknown"
     },
-    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.8.0.3/embyserver-win-x64-4.8.0.3.7z",
-    "hash": "a5fd7f29ffcdb3013ab9755aebeb8c8ce9454cd6556e77441ed3f8b62539178e",
+    "url": "https://github.com/MediaBrowser/Emby.Releases/releases/download/4.7.5.0/embyserver-win-x64-4.7.5.0.7z",
+    "hash": "bd7b74d9374062c18fb62c8451c19606da73f0a423616f077c8bdf80a39a9b84",
     "bin": "system/EmbyServer.exe",
     "shortcuts": [
         [
