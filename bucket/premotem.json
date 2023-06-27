@@ -1,10 +1,10 @@
 {
-    "version": "0.7.2.2",
-    "description": "Personal Remote Manager",
-    "homepage": "https://github.com/VShawn/PRemoteM",
+    "version": "0.7.2.8",
+    "description": "One Remote Access Manager to Rule Them All",
+    "homepage": "https://github.com/1Remote/1Remote",
     "license": "GPL-3.0",
-    "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.2/PRemoteM-0.7.2.2.zip",
-    "hash": "e45aa734d567fa8c3cbf612de19bbb31e418e88b4a85ac733282607c9262e66d",
+    "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.8/PRemoteM.zip",
+    "hash": "2c3bb69e165249681225283e8208573c2e6691467ff1b83e99eb475837b6d36e",
     "bin": "PRemoteM.exe",
     "shortcuts": [
         [
@@ -19,10 +19,10 @@
         "}"
     ],
     "checkver": {
-        "url": "https://github.com/1Remote/PRemoteM/releases",
-        "regex": "\\/1Remote\\/PRemoteM\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\-(?<version>.+?)\\.zip\""
+        "url": "https://github.com/1Remote/1Remote/releases",
+        "regex": "\\/1Remote\\/1Remote\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\.zip\""
     },
     "autoupdate": {
-        "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.2/PRemoteM-0.7.2.2.zip"
+        "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.8/PRemoteM.zip"
     }
 }
