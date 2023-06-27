@@ -19,10 +19,9 @@
         "}"
     ],
     "checkver": {
-        "url": "https://github.com/1Remote/1Remote/releases",
-        "regex": "\\/1Remote\\/1Remote\\/releases\\/download\\/(?<tag>.+?)\\/PRemoteM\\.zip\""
+        "url": "https://github.com/1Remote/1Remote/releases"
     },
     "autoupdate": {
-        "url": "https://github.com/1Remote/1Remote/releases/download/0.7.2.8/PRemoteM.zip"
+        "url": "https://github.com/1Remote/1Remote/releases/download/$version/PRemoteM.zip"
     }
 }
